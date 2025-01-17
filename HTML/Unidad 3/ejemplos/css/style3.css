@@ -1,0 +1,12 @@
+body{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 0.8em;
+	color: #000;
+}
+#parrafo01{
+	letter-spacing: 3px;
+}
+
+#parrafo02{
+	line-height: 2em;
+}

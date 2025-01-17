@@ -1,0 +1,42 @@
+body {
+	width: 800px;
+	font-family: Tahoma;
+	font-size: 10pt;
+	color: #666;
+}
+
+header h1 {
+	font-family: Arial;
+	font-size: 1.8em;
+	color: #666;
+}
+
+header hgroup h1{
+	font-family: Arial;
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #630;
+	padding: 4px;
+}
+
+footer{
+	width: 800px;
+	background-color: black;
+	font-size: 0.8em;
+	color: white;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.italica{
+	font-style: italic;
+}
+
+.izquierda{
+	margin: 15 px;
+	float: left;
+}
+
+* {
+	margin-top: 5px;
+	margin-bottom: 5px;

@@ -1,0 +1,25 @@
+body{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 0.8em;
+	color: #000;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.oblique{
+	font-style: oblique;
+}
+
+.texto01{
+	text-decoration: underline;
+}
+
+.texto02{
+	text-decoration: line-through;
+}
+
+.destacado{
+	font-weight: bold;
+}

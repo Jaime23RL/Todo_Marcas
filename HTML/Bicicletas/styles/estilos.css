@@ -1,0 +1,10 @@
+.block{
+    display: block;
+    float: left;
+}
+
+.negro{
+    background-color: black;
+    color:white;
+    border-top: 5pt black;
+}

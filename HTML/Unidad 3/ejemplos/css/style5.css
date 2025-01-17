@@ -1,0 +1,23 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+	text-align: center;
+}
+
+.nombrecorto{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.nombrelargo{
+	font-style: italic;
+}
+
+.horas{
+	font-size: 0.8em;
+}
+
+.caja{
+	width: 200px;
+	border: 1px solid #000;
+	padding: 10px:
+	margin: 10px;
