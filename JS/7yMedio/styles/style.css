@@ -1,3 +1,107 @@
 body{
     background-image:url("../img/fondo.png");
+    display:flex;
+    background-size: cover;  /*Este y el de abajo sacados de chati para ajustar el fondo*/
+    background-position: center center;
+
+}
+
+.demo{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    margin: 100px;
+    border-radius: 25px;
+    background-color: #98f997;
+}
+
+.prueba{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    margin: 100px;
+    background-color: #98f997;
+}
+
+.prueba2{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px; 
+    margin: 100px;
+    border-radius: 25px;
+    background-color: #98f997;
+}
+
+
+button {
+    display: inline-block;
+    background: none;
+    font: inherit;
+    width: 100px;
+    height: 75px;
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    border: 2px, solid,black;
+    color:white
+}
+
+header{
+    font-style:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+img{
+    display: inline-block;
+    margin: 50px;
+}
+
+#resultado{
+    margin-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 100px;
+}
+
+button:hover{
+    background: green;
+}
+
+#maquina{
+    margin-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 100px;
+}
+
+#resulMaquina{
+    margin-left: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 100px;
+}
+
+.resul{
+    margin: 50px;
+    width: 300px;
+    height: 100px;
+    border: 1px, solid,white;
+    border-radius: 25px;
+}
+
+
+p{
+    padding-left: 40px;
+    margin: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
