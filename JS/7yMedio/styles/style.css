@@ -1,9 +1,8 @@
 body{
     background-image:url("../img/fondo.png");
-    display:flex;
+    display:inline-flex;
     background-size: cover;  /*Este y el de abajo sacados de chati para ajustar el fondo*/
     background-position: center center;
-
 }
 
 .demo{

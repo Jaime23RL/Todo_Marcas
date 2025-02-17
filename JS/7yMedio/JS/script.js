@@ -99,7 +99,7 @@ function robot(){
     // Primero miro si el jugador se ha pasado del puntaje o si esta dentro del margen
     if(resultado<=7.5){
     // Si el player puede ganar la maquina pide cartas hasta que ha superado al player
-    while(resultadoRobo<resultado){
+    while(resultadoRobo<=resultado){
         var ale=Math.floor(Math.random()*arrayIMG.length);
         var ruta="img/"+arrayIMG[ale];
         resultadoRobo=arrayValor[ale]+resultadoRobo;
