@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 <body>
-    <header>
-        <h1>JUEGO DE LA 7 Y MEDIA</h1>
-        <br>
-        <button onclick="pedir()" id="perdido">Pedir carta</button>
-        <button onclick="plantarse()">Plantarse</button>
-    </header>
-    <div id="player">
-        <p id="resultado"></p>
+    <div class="demo" id="player">
+        <div id="resultado"></div>
+    </div>
+    <div class="prueba">
+        <header>
+            <h1>Juego del 7 y Medio</h1>
+        </header>
+        <button onclick="pedir()" id="perdido" class="close" name="boton">Pedir carta</button>
+        <button onclick="Refrescar()" id="refrescar">Replay</button>
+        <button onclick="plantarse()" id="plantado">Plantarse</button>
+        <div class="resul">
+            <p id="resul"></p>
+        </div>
+    </div>
+    <div class="prueba2" id="maquina">
+        <div id="resulMaquina"></div>
     </div>
     
 </body>
